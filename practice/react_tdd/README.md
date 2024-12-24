@@ -38,8 +38,8 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/edaywalid/react-tdd-example.git
-   cd react-tdd-example
+   git clone https://github.com/edaywalid/Testing101.git
+   cd practice/react_tdd
    ```
 
 2. Install dependencies:
