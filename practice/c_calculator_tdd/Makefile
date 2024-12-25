@@ -1,5 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -g
+TESTFLAGS= $(CFLAGS) -lcunit
 TARGET = calculator
 TEST_TARGET = calculator_test
 
@@ -14,7 +15,7 @@ $(TARGET): $(SRC_FILES)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRC_FILES)
 
 test: $(TEST_FILES)
-	$(CC) $(CFLAGS) -o $(TEST_TARGET) $(TEST_FILES)
+	$(CC) $(TESTFLAGS) -o $(TEST_TARGET) $(TEST_FILES) 
 	./$(TEST_TARGET)
 
 clean:
