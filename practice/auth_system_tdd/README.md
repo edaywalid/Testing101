@@ -36,7 +36,7 @@ Make sure you have the following installed on your machine:
 
    ```bash
    git clone https://github.com/edaywalid/Testing101.git
-   cd auth_system_tdd
+   cd Testing101/auth_system_tdd
 
 2. Install dependencies :
 
